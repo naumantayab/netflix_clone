@@ -1,0 +1,55 @@
+.navbar_main {
+    font-family: 'Ubuntu';
+    position: sticky;
+    height: 60px;
+    background-color: black;
+}
+
+.netflix_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.netflix_logo img {
+    width: 110px;
+    font-weight: bolder;
+}
+
+.nav_right {
+    position: static;
+    color: white;
+}
+
+.btn_join_now {
+    border: 1px solid #E50914;
+    margin: 10px;
+    padding: 8px 24px 8px 24px;
+    font-size: 13px;
+    background-color: #E50914;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn_join_now:hover {
+    background-color: red;
+}
+
+.btn_sign {
+    border: 0.5px solid gray;
+    /* border-radius: 5px; */
+    margin: 10px 50px 10px 6px;
+    padding: 8px 20px 8px 20px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_sign:hover {
+    background-color: #2D2D2D;
+}
